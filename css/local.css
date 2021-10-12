@@ -1,0 +1,21 @@
+#mi_canvas {
+	background:url('../Juegos/Gallina/imagenes/Road.png');
+	color:#ffffff;
+	border:2px solid;
+	border-color:#ffffff;
+	border-radius:15px;
+}
+
+#mi_canvas2 {
+	background:url('../Juegos/La_Llorona/imagenes/fondo.jpg');
+	color:#ffffff;
+	border:2px solid;
+	border-color:#ffffff;
+	border-radius:15px;
+}
+
+#myCanvas {
+	background: #eee; 
+    display: block; 
+    margin: 0 auto;
+}

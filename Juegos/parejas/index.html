@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="script.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>TwiceCard</title>
+</head>
+
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+
+
+
+
+
+
+  <div id="tablero" class="tablero">
+    <table>
+
+      <tr>
+        <td id="0" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        <td id="1" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        <td id="2" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        <td id="3" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+      </tr>
+
+
+      <tr>
+        <td id="4" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        <td id="5" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        <td id="6" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        <td id="7" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+      </tr>
+
+
+      <tr>
+        <td id="8" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        <td id="9" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        <td id="10" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        <td id="11" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+      </tr>
+
+
+      <tr>
+        <td id="12" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        <td id="13" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        <td id="14" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        <td id="15" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+      </tr>
+
+
+
+      <tr>
+        <td colspan="3">
+          Intentos:
+        </td>
+        <td colspan="1" id="try" data-valor="0">
+          0
+        </td>
+      </tr>
+
+
+    </table>
+
+
+  </div>
+
+  <div class="centrar">
+    <input type="button" class="button" value="INICIO" onclick="iniciarJuego()" />
+    <input type="button" class="button" value="REINICIAR" onclick="location.reload()" />
+
+  </div>
+
+  <footer>
+    <a href="../../Index.html">Volver a la pagina principal</a>
+  </footer>
+</body>
+
+</html>

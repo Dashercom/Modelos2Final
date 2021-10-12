@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <meta charset="utf-8">
+    <title>Buscaminas</title>
+
+    <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+
+  <body >
+    <header>
+      <h1>Buscaminas</h1>
+    </header>
+
+    <section class="seccionsup">
+      <ul class="superior">
+        <li class="tiempo"><span id="countdown"></span></li>
+        <li><img id="cara" src="images/smile.png"></li>
+        <li class="puntos">Puntos: <span id="puntaje">0</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <center><canvas id="canvas" width="900" height="480"></canvas></center>
+
+      <script src="scripts/logica.js">
+        document.getElementById("cara").src = "images/smileB.png";
+      </script>
+
+      <script src="scripts/main.js"></script>
+
+      <script src="scripts/controlador.js"></script>
+
+      <script src="scripts/tiempo.js"></script>
+
+      <script type="text/javascript">
+
+      </script>
+
+    </section>
+
+
+
+
+
+    <!--if (miSistema.getEstado() == 0) {
+            getMiBuscaminas().getLblTitulo().setIcon(new ImageIcon(VentanaBuscaminas.class.getResource("/img/smile.png")));
+  }
+  if (miSistema.getEstado() == 1) {
+            getMiBuscaminas().getLblTitulo().setIcon(new ImageIcon(VentanaBuscaminas.class.getResource("/img/smileB.png")));
+  }
+  if (miSistema.getEstado() == 2) {
+            getMiBuscaminas().getLblTitulo().setIcon(new ImageIcon(VentanaBuscaminas.class.getResource("/img/smileH.png")));
+  }-->
+
+  <footer>
+    <a href="../../Index.html">Volver a la pagina principal</a>
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+html {
+  height: 100%
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  background-color:  #d6dbdf;
+}
+
+header{
+  background-color: #a4aca6;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px 0;
+  color: #117a65;
+  text-shadow: 3px 3px 1px black;
+}
+
+h2 {
+  width: 33%;
+  color: #ff0000;
+  font-size: 40px;
+  font-family: 'Impact', impact;
+  align: left;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ccd1d1;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+canvas{
+  margin: 0 auto;
+  font-size: 50%;
+  font-family: 'Impact', impact;
+}
+
+#cara {
+  /*
+  background-color:#999;
+  float:left;
+  border: 5px solid black;*/
+  width: 70px;
+  height: 70px;
+}
+
+.tiempo{
+  /*background-color:#999;*/
+  border: 5px solid black
+  display: inline;
+  /*width: 33%;*/
+  color: #ff0000;
+  font-size: 80px;
+  font-family: 'Impact', impact;*/
+}
+
+.puntos{
+  display: inline;
+  /*width: 33%;*/
+  color: #000c98;
+  font-size: 80px;
+  font-family: 'Impact', impact;
+}
+
+ul.superior li {
+  display: inline;
+  padding-right: 0.5em;
+}
+
+.seccionsup{
+  text-align: center
+  /*aling: center; */
+}
